@@ -1,0 +1,444 @@
+/* CSS CODE */
+
+html,
+body {
+    margin: 0;
+    font-family: "Roboto";
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+/* ======================= Start Header Area ==============================  */
+
+
+#header .main {
+    padding: 10px 30px;
+}
+
+#header .main .navbar {
+    padding: 20px 40px;
+    width: 100%;
+    background: #fff;
+}
+
+#header .main .navbar .navbar-brand img {
+    width: 100%;
+    padding: 0 1rem 0 5rem;
+}
+
+#header .main .navbar .navbar-nav .nav-item {
+    list-style-type: none;
+}
+
+#header .main .navbar .navbar-nav .nav-item .active {
+    color: #854fee;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #854fee;
+    background-clip: text;
+}
+
+#header .main .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: 0 15px;
+}
+
+#header .main .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #854fee;
+}
+
+/* ======================= End Header Area ==============================  */
+
+/* ======================= Start Banner Area =======================  */
+
+.site-main .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat;
+    background-size: cover;
+}
+
+.site-main .site-banner .container .row .site-title {
+    padding-top: 13%;
+}
+
+.site-main .site-banner .container .row .site-title h3 {
+    font-size: 50px;
+}
+
+.site-main .site-banner .container .row .site-title h3::after {
+    content: "";
+    height: 2px;
+    width: 20vw;
+    background-color: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-12px);
+}
+
+.site-main .site-banner .container .row .site-title h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.site-main .site-banner .container .row .site-title h4 {
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.site-main .site-banner .container .row .site-buttons .d-flex .button {
+    font-size: 17.5px;
+    position: relative;
+}
+
+.site-main .site-banner .container .row .site-buttons .d-flex .primary-button {
+    width: 130px;
+    height: 50px;
+    background: linear-gradient(130deg, #4458dc 0%, #854fee);
+    color: whitesmoke;
+    border-radius: 4px;
+    background-clip: padding-box;
+    transition: background.6s ease;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+.site-main .site-banner .container .row .site-buttons .d-flex .primary-button:hover {
+    background: #fff;
+    color: #000000;
+    background-clip: padding-box;
+}
+
+.site-main .site-banner .container .row .site-buttons .d-flex .primary-button::after {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    background: linear-gradient(130deg, #4458dc 0%, #854fee);
+    content: "";
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.site-main .site-banner .container .row .site-buttons .d-flex .secondary-button {
+    width: 130px;
+    height: 50px;
+    background: #fff;
+    color: black;
+    border-radius: 4px;
+    background-clip: padding-box;
+    transition: background.6s ease;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+.site-main .site-banner .container .row .site-buttons .d-flex .secondary-button:hover {
+    background: linear-gradient(130deg, #4458dc 0%, #854fee);
+    color: #fff;
+    background-clip: padding-box;
+}
+
+.site-main .site-banner .container .row .site-buttons .d-flex .secondary-button::after {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    background: linear-gradient(130deg, #4458dc 0%, #854fee);
+    content: "";
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.site-main .site-banner .container .row .banner-image .img-fluid {
+    width: 100%;
+    padding-top: 80px;
+}
+
+/* ======================= end Banner Area =======================  */
+
+
+/*  ========================= About Area ========================== */
+
+
+
+.about-area {
+    padding: 3rem 4rem;
+    width: 100%;
+}
+
+.about-area .container-fluid .row .about-title h2 {
+    letter-spacing: 19px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about-area .container-fluid .row .paragraph .para {
+    color: #777777;
+    padding: .4rem 0;
+}
+
+.about-area .container-fluid .row .primary-button {
+    position: relative;
+    width: 160px;
+    height: 50px;
+    background: linear-gradient(130deg, #4458dc 0%, #854fee);
+    color: whitesmoke;
+    border-radius: 4px;
+    background-clip: padding-box;
+    transition: background.6s ease;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+.about-area .container-fluid .row .primary-button:hover {
+    background: #fff;
+    color: black;
+    background-clip: padding-box;
+}
+
+.about-area .container-fluid .row .primary-button::after {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    background: linear-gradient(130deg, #4458dc 0%, #854fee);
+    content: "";
+    z-index: -1;
+    border-radius: 4px;
+}
+
+
+/*  ========================= end About Area ========================== */
+
+/*========================  Brand Area ==============================*/
+.brand-area {
+    padding: 2rem 1.5rem 2rem 3.3rem;
+}
+
+.brand-area .container-fluid .row .first-row .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.brand-area .container-fluid .row .first-row .single-brand {
+    border: 1px solid #201f1f17;
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform.4s ease;
+}
+
+.brand-area .container-fluid .row .first-row .single-brand img {
+    width: 50%;
+}
+
+.brand-area .container-fluid .row .first-row .single-brand:hover {
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    transform: scale(1.1);
+}
+
+.brand-area .container-fluid .row .first-row .single-brand:hover {
+    filter: brightness(0.15);
+}
+
+.brand-area .container-fluid .row .col-xl-6 .experience-area {
+    display: block;
+}
+
+.brand-area .container-fluid .row .col-xl-6 .experience-area .years-area {
+    padding: 2rem 2rem;
+    width: 10rem;
+    height: 14rem;
+    padding-left: 6rem;
+    position: relative;
+    background: url(../img/client-info-bg.png)no-repeat 50px 20px;
+}
+
+.brand-area .container-fluid .row .col-xl-6 .experience-area .years-area .years {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #854fee;
+    height: 200px;
+    z-index: 2;
+}
+
+.brand-area .container-fluid .row .col-xl-6 .experience-area .years-area h2 span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.brand-area .container-fluid .row .col-xl-6 .experience-area .call-area {
+    padding-left: 7rem;
+}
+
+.brand-area .container-fluid .row .col-xl-6 .experience-area .call-area .call-now a {
+    display: flex;
+    color: #007bff;
+}
+
+.brand-area .container-fluid .row .col-xl-6 .experience-area .call-area .call-now a:hover {
+    text-decoration: underline !important;
+}
+
+/*======================== End Brand Area ==============================*/
+
+
+/*====================== Start Services Area =============================  */
+
+.services-area {
+    padding: 150px 10px 0 10px;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.services-area .container .row .services:hover {}
+
+.services-area .container .row .services-title {
+    padding: 40px 50px 50px 50px;
+}
+
+.services-area .container .row .col-lg-3 .services .sevices-img {
+    margin-top: 50px;
+}
+
+.services-area .container .row .col-lg-3 .services .card-body {
+    margin-bottom: 30px;
+}
+
+.services-area .container .row .col-lg-3 .services .card-body .card-title {
+    padding: 10px;
+}
+
+.services-area .container .row .col-lg-3 .services .card-body .card-text {
+    padding: 15px;
+}
+
+/*====================== end Services Area =============================  */
+
+/* ======================= Project Area ============================= */
+
+.project-area {
+    padding: 50px;
+    width: 100vw;
+}
+
+.project-area .container .project-title {
+    margin-bottom: 30px;
+}
+
+.project-area .container .project-title .title-h1 {
+    font-weight: bold;
+}
+
+.project-area .container .button-group button {
+    background-color: #fff;
+    border: none;
+    font-size: 18px;
+    padding: 50px 30px;
+}
+
+.project-area .container .button-group .active {
+    padding: 50px 0;
+}
+
+/* ======================= end Project Area ============================= */
+
+
+/* ==========================  Subscribe me Area ============================ */
+
+.subscribe-us-area {
+    width: 85%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    padding: 5px 10px;
+    background: url(../img/subscribe-bg.png)no-repeat;
+    background-size: cover;
+    height: 480px;
+}
+
+.subscribe-us-area .container {
+    margin-top: 100px;
+}
+
+.subscribe-us-area .container .row .subscribe-title h4 {
+    font-size: 2rem;
+}
+
+.subscribe-us-area .container .d-sm-flex {
+    margin-left: 30px;
+}
+
+.subscribe-us-area .container .d-sm-flex .search-bar .d-flex .input-textbox .form-control {
+    width: 400px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: linear-gradient(130deg, #4458dc 0%, #854fee);
+    color: #fff;
+}
+
+.subscribe-us-area .container .d-sm-flex .search-bar .d-flex .input-textbox .form-control::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.subscribe-us-area .container .d-sm-flex .search-bar .d-flex .col .btn-submit .btn {
+    height: 50px;
+    width: 130px;
+    background-color: #fff;
+}
+
+/* ==========================  end Subscribe me Area ============================ */
+
+
+/* ========================= footer area =============================== */
+
+.footer-area {
+    padding: 80px;
+    width: 100%;
+}
+
+.footer-area .container .contact-me .social {
+    width: 100%;
+    height: 120px;
+}
+
+.footer-area .container .contact-me .social h5 {
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.footer-area .container .contact-me .social .social-icons a {
+    padding: 30px;
+    text-align: center;
+    color: lightgray;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.footer-area .container .contact-me .social .social-icons a:hover {
+    color: #007bff;
+}
+
+.footer-area .container .contact-me .copyrights .para a span:hover {
+    text-decoration: underline;
+}
+
+
+/* ========================= end footer area =============================== */
